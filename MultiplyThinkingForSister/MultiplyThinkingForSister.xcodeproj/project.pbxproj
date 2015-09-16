@@ -14,6 +14,13 @@
 		7F8C19231BA7CE9600282C3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C19221BA7CE9600282C3F /* Images.xcassets */; };
 		7F8C19261BA7CE9600282C3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8C19241BA7CE9600282C3F /* LaunchScreen.xib */; };
 		7F8C19321BA7CE9600282C3F /* MultiplyThinkingForSisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8C19311BA7CE9600282C3F /* MultiplyThinkingForSisterTests.m */; };
+		7FD480951BAA292C0020DADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480941BAA292C0020DADC /* main.m */; };
+		7FD480981BAA292C0020DADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480971BAA292C0020DADC /* AppDelegate.m */; };
+		7FD4809B1BAA292C0020DADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4809A1BAA292C0020DADC /* ViewController.m */; };
+		7FD4809E1BAA292C0020DADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4809C1BAA292C0020DADC /* Main.storyboard */; };
+		7FD480A01BAA292C0020DADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4809F1BAA292C0020DADC /* Images.xcassets */; };
+		7FD480A31BAA292C0020DADC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD480A11BAA292C0020DADC /* LaunchScreen.xib */; };
+		7FD480AF1BAA292C0020DADC /* KVO_NSNotification______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +30,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7F8C19111BA7CE9600282C3F;
 			remoteInfo = MultiplyThinkingForSister;
+		};
+		7FD480A91BAA292C0020DADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8C190A1BA7CE9600282C3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FD4808F1BAA292C0020DADC;
+			remoteInfo = "KVO和NSNotification的区别与联系";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +54,19 @@
 		7F8C192B1BA7CE9600282C3F /* MultiplyThinkingForSisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplyThinkingForSisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8C19301BA7CE9600282C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F8C19311BA7CE9600282C3F /* MultiplyThinkingForSisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplyThinkingForSisterTests.m; sourceTree = "<group>"; };
+		7FD480901BAA292C0020DADC /* KVO和NSNotification的区别与联系.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KVO和NSNotification的区别与联系.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD480931BAA292C0020DADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD480941BAA292C0020DADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD480961BAA292C0020DADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FD480971BAA292C0020DADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FD480991BAA292C0020DADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FD4809A1BAA292C0020DADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FD4809D1BAA292C0020DADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD4809F1BAA292C0020DADC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FD480A21BAA292C0020DADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO和NSNotification的区别与联系Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD480AD1BAA292C0020DADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KVO_NSNotification______Tests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +84,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FD4808D1BAA292C0020DADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD480A51BAA292C0020DADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +106,8 @@
 			children = (
 				7F8C19141BA7CE9600282C3F /* MultiplyThinkingForSister */,
 				7F8C192E1BA7CE9600282C3F /* MultiplyThinkingForSisterTests */,
+				7FD480911BAA292C0020DADC /* KVO和NSNotification的区别与联系 */,
+				7FD480AB1BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */,
 				7F8C19131BA7CE9600282C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +117,8 @@
 			children = (
 				7F8C19121BA7CE9600282C3F /* MultiplyThinkingForSister.app */,
 				7F8C192B1BA7CE9600282C3F /* MultiplyThinkingForSisterTests.xctest */,
+				7FD480901BAA292C0020DADC /* KVO和NSNotification的区别与联系.app */,
+				7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +168,7 @@
 		7F8C193B1BA7CECF00282C3F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				7FD480881BAA28990020DADC /* Other */,
 				7F8C193C1BA7CECF00282C3F /* Main */,
 			);
 			path = Class;
@@ -157,6 +203,78 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7FD480881BAA28990020DADC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7FD4808B1BAA28B40020DADC /* Controller */,
+				7FD4808A1BAA28B00020DADC /* Model */,
+				7FD480891BAA28AC0020DADC /* View */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		7FD480891BAA28AC0020DADC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7FD4808A1BAA28B00020DADC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7FD4808B1BAA28B40020DADC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7FD480911BAA292C0020DADC /* KVO和NSNotification的区别与联系 */ = {
+			isa = PBXGroup;
+			children = (
+				7FD480961BAA292C0020DADC /* AppDelegate.h */,
+				7FD480971BAA292C0020DADC /* AppDelegate.m */,
+				7FD480991BAA292C0020DADC /* ViewController.h */,
+				7FD4809A1BAA292C0020DADC /* ViewController.m */,
+				7FD4809C1BAA292C0020DADC /* Main.storyboard */,
+				7FD4809F1BAA292C0020DADC /* Images.xcassets */,
+				7FD480A11BAA292C0020DADC /* LaunchScreen.xib */,
+				7FD480921BAA292C0020DADC /* Supporting Files */,
+			);
+			path = "KVO和NSNotification的区别与联系";
+			sourceTree = "<group>";
+		};
+		7FD480921BAA292C0020DADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD480931BAA292C0020DADC /* Info.plist */,
+				7FD480941BAA292C0020DADC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD480AB1BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */,
+				7FD480AC1BAA292C0020DADC /* Supporting Files */,
+			);
+			path = "KVO和NSNotification的区别与联系Tests";
+			sourceTree = "<group>";
+		};
+		7FD480AC1BAA292C0020DADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD480AD1BAA292C0020DADC /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +315,41 @@
 			productReference = 7F8C192B1BA7CE9600282C3F /* MultiplyThinkingForSisterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7FD4808F1BAA292C0020DADC /* KVO和NSNotification的区别与联系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD480B01BAA292C0020DADC /* Build configuration list for PBXNativeTarget "KVO和NSNotification的区别与联系" */;
+			buildPhases = (
+				7FD4808C1BAA292C0020DADC /* Sources */,
+				7FD4808D1BAA292C0020DADC /* Frameworks */,
+				7FD4808E1BAA292C0020DADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVO和NSNotification的区别与联系";
+			productName = "KVO和NSNotification的区别与联系";
+			productReference = 7FD480901BAA292C0020DADC /* KVO和NSNotification的区别与联系.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FD480A71BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD480B31BAA292C0020DADC /* Build configuration list for PBXNativeTarget "KVO和NSNotification的区别与联系Tests" */;
+			buildPhases = (
+				7FD480A41BAA292C0020DADC /* Sources */,
+				7FD480A51BAA292C0020DADC /* Frameworks */,
+				7FD480A61BAA292C0020DADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD480AA1BAA292C0020DADC /* PBXTargetDependency */,
+			);
+			name = "KVO和NSNotification的区别与联系Tests";
+			productName = "KVO和NSNotification的区别与联系Tests";
+			productReference = 7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +365,13 @@
 					7F8C192A1BA7CE9600282C3F = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 7F8C19111BA7CE9600282C3F;
+					};
+					7FD4808F1BAA292C0020DADC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7FD480A71BAA292C0020DADC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7FD4808F1BAA292C0020DADC;
 					};
 				};
 			};
@@ -230,6 +390,8 @@
 			targets = (
 				7F8C19111BA7CE9600282C3F /* MultiplyThinkingForSister */,
 				7F8C192A1BA7CE9600282C3F /* MultiplyThinkingForSisterTests */,
+				7FD4808F1BAA292C0020DADC /* KVO和NSNotification的区别与联系 */,
+				7FD480A71BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +408,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F8C19291BA7CE9600282C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD4808E1BAA292C0020DADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD4809E1BAA292C0020DADC /* Main.storyboard in Resources */,
+				7FD480A31BAA292C0020DADC /* LaunchScreen.xib in Resources */,
+				7FD480A01BAA292C0020DADC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD480A61BAA292C0020DADC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +452,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FD4808C1BAA292C0020DADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD4809B1BAA292C0020DADC /* ViewController.m in Sources */,
+				7FD480981BAA292C0020DADC /* AppDelegate.m in Sources */,
+				7FD480951BAA292C0020DADC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD480A41BAA292C0020DADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD480AF1BAA292C0020DADC /* KVO_NSNotification______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -280,6 +477,11 @@
 			isa = PBXTargetDependency;
 			target = 7F8C19111BA7CE9600282C3F /* MultiplyThinkingForSister */;
 			targetProxy = 7F8C192C1BA7CE9600282C3F /* PBXContainerItemProxy */;
+		};
+		7FD480AA1BAA292C0020DADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FD4808F1BAA292C0020DADC /* KVO和NSNotification的区别与联系 */;
+			targetProxy = 7FD480A91BAA292C0020DADC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -296,6 +498,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7F8C19251BA7CE9600282C3F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7FD4809C1BAA292C0020DADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD4809D1BAA292C0020DADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD480A11BAA292C0020DADC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD480A21BAA292C0020DADC /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -437,6 +655,64 @@
 			};
 			name = Release;
 		};
+		7FD480B11BAA292C0020DADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KVO和NSNotification的区别与联系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FD480B21BAA292C0020DADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KVO和NSNotification的区别与联系/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FD480B41BAA292C0020DADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KVO和NSNotification的区别与联系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVO和NSNotification的区别与联系.app/KVO和NSNotification的区别与联系";
+			};
+			name = Debug;
+		};
+		7FD480B51BAA292C0020DADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KVO和NSNotification的区别与联系Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVO和NSNotification的区别与联系.app/KVO和NSNotification的区别与联系";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,12 +732,30 @@
 				7F8C19371BA7CE9600282C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F8C19381BA7CE9600282C3F /* Build configuration list for PBXNativeTarget "MultiplyThinkingForSisterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F8C19391BA7CE9600282C3F /* Debug */,
 				7F8C193A1BA7CE9600282C3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD480B01BAA292C0020DADC /* Build configuration list for PBXNativeTarget "KVO和NSNotification的区别与联系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD480B11BAA292C0020DADC /* Debug */,
+				7FD480B21BAA292C0020DADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FD480B31BAA292C0020DADC /* Build configuration list for PBXNativeTarget "KVO和NSNotification的区别与联系Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD480B41BAA292C0020DADC /* Debug */,
+				7FD480B51BAA292C0020DADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
