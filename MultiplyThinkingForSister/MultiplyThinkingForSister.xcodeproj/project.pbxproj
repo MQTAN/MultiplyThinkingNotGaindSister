@@ -21,6 +21,8 @@
 		7FD480A01BAA292C0020DADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4809F1BAA292C0020DADC /* Images.xcassets */; };
 		7FD480A31BAA292C0020DADC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD480A11BAA292C0020DADC /* LaunchScreen.xib */; };
 		7FD480AF1BAA292C0020DADC /* KVO_NSNotification______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */; };
+		7FD480B91BAA2DD30020DADC /* MQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480B81BAA2DD30020DADC /* MQPerson.m */; };
+		7FD480BC1BAA2E630020DADC /* MQBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480BB1BAA2E630020DADC /* MQBank.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO和NSNotification的区别与联系Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD480AD1BAA292C0020DADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KVO_NSNotification______Tests.m"; sourceTree = "<group>"; };
+		7FD480B71BAA2DD30020DADC /* MQPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPerson.h; sourceTree = "<group>"; };
+		7FD480B81BAA2DD30020DADC /* MQPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPerson.m; sourceTree = "<group>"; };
+		7FD480BA1BAA2E630020DADC /* MQBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBank.h; sourceTree = "<group>"; };
+		7FD480BB1BAA2E630020DADC /* MQBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBank.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,10 +245,9 @@
 		7FD480911BAA292C0020DADC /* KVO和NSNotification的区别与联系 */ = {
 			isa = PBXGroup;
 			children = (
+				7FD480B61BAA2D9F0020DADC /* Class */,
 				7FD480961BAA292C0020DADC /* AppDelegate.h */,
 				7FD480971BAA292C0020DADC /* AppDelegate.m */,
-				7FD480991BAA292C0020DADC /* ViewController.h */,
-				7FD4809A1BAA292C0020DADC /* ViewController.m */,
 				7FD4809C1BAA292C0020DADC /* Main.storyboard */,
 				7FD4809F1BAA292C0020DADC /* Images.xcassets */,
 				7FD480A11BAA292C0020DADC /* LaunchScreen.xib */,
@@ -275,6 +280,19 @@
 				7FD480AD1BAA292C0020DADC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD480B61BAA2D9F0020DADC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7FD480991BAA292C0020DADC /* ViewController.h */,
+				7FD4809A1BAA292C0020DADC /* ViewController.m */,
+				7FD480B71BAA2DD30020DADC /* MQPerson.h */,
+				7FD480B81BAA2DD30020DADC /* MQPerson.m */,
+				7FD480BA1BAA2E630020DADC /* MQBank.h */,
+				7FD480BB1BAA2E630020DADC /* MQBank.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +374,7 @@
 		7F8C190A1BA7CE9600282C3F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MQ;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = baidu;
 				TargetAttributes = {
@@ -458,6 +477,8 @@
 			files = (
 				7FD4809B1BAA292C0020DADC /* ViewController.m in Sources */,
 				7FD480981BAA292C0020DADC /* AppDelegate.m in Sources */,
+				7FD480BC1BAA2E630020DADC /* MQBank.m in Sources */,
+				7FD480B91BAA2DD30020DADC /* MQPerson.m in Sources */,
 				7FD480951BAA292C0020DADC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -750,6 +771,7 @@
 				7FD480B21BAA292C0020DADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FD480B31BAA292C0020DADC /* Build configuration list for PBXNativeTarget "KVO和NSNotification的区别与联系Tests" */ = {
 			isa = XCConfigurationList;
@@ -758,6 +780,7 @@
 				7FD480B51BAA292C0020DADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
