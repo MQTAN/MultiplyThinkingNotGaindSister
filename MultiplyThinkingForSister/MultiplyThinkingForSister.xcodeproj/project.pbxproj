@@ -23,6 +23,12 @@
 		7FD480AF1BAA292C0020DADC /* KVO_NSNotification______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480AE1BAA292C0020DADC /* KVO_NSNotification______Tests.m */; };
 		7FD480B91BAA2DD30020DADC /* MQPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480B81BAA2DD30020DADC /* MQPerson.m */; };
 		7FD480BC1BAA2E630020DADC /* MQBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD480BB1BAA2E630020DADC /* MQBank.m */; };
+		7FD909231BB0192500E2DC77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD909221BB0192500E2DC77 /* main.m */; };
+		7FD909261BB0192500E2DC77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD909251BB0192500E2DC77 /* AppDelegate.m */; };
+		7FD909291BB0192500E2DC77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD909281BB0192500E2DC77 /* ViewController.m */; };
+		7FD9092C1BB0192500E2DC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9092A1BB0192500E2DC77 /* Main.storyboard */; };
+		7FD9092E1BB0192500E2DC77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9092D1BB0192500E2DC77 /* Assets.xcassets */; };
+		7FD909311BB0192500E2DC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD9092F1BB0192500E2DC77 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,16 @@
 		7FD480B81BAA2DD30020DADC /* MQPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPerson.m; sourceTree = "<group>"; };
 		7FD480BA1BAA2E630020DADC /* MQBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBank.h; sourceTree = "<group>"; };
 		7FD480BB1BAA2E630020DADC /* MQBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBank.m; sourceTree = "<group>"; };
+		7FD9091F1BB0192500E2DC77 /* 面试题_interviewExaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "面试题_interviewExaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD909221BB0192500E2DC77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD909241BB0192500E2DC77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FD909251BB0192500E2DC77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FD909271BB0192500E2DC77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FD909281BB0192500E2DC77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FD9092B1BB0192500E2DC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD9092D1BB0192500E2DC77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD909301BB0192500E2DC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FD909321BB0192500E2DC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7FD9091C1BB0192500E2DC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -114,6 +137,7 @@
 				7F8C192E1BA7CE9600282C3F /* MultiplyThinkingForSisterTests */,
 				7FD480911BAA292C0020DADC /* KVO和NSNotification的区别与联系 */,
 				7FD480AB1BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */,
+				7FD909201BB0192500E2DC77 /* 面试题_interviewExaming */,
 				7F8C19131BA7CE9600282C3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +149,7 @@
 				7F8C192B1BA7CE9600282C3F /* MultiplyThinkingForSisterTests.xctest */,
 				7FD480901BAA292C0020DADC /* KVO和NSNotification的区别与联系.app */,
 				7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */,
+				7FD9091F1BB0192500E2DC77 /* 面试题_interviewExaming.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,6 +320,30 @@
 			name = Class;
 			sourceTree = "<group>";
 		};
+		7FD909201BB0192500E2DC77 /* 面试题_interviewExaming */ = {
+			isa = PBXGroup;
+			children = (
+				7FD909241BB0192500E2DC77 /* AppDelegate.h */,
+				7FD909251BB0192500E2DC77 /* AppDelegate.m */,
+				7FD909271BB0192500E2DC77 /* ViewController.h */,
+				7FD909281BB0192500E2DC77 /* ViewController.m */,
+				7FD9092A1BB0192500E2DC77 /* Main.storyboard */,
+				7FD9092D1BB0192500E2DC77 /* Assets.xcassets */,
+				7FD9092F1BB0192500E2DC77 /* LaunchScreen.storyboard */,
+				7FD909321BB0192500E2DC77 /* Info.plist */,
+				7FD909211BB0192500E2DC77 /* Supporting Files */,
+			);
+			path = "面试题_interviewExaming";
+			sourceTree = "<group>";
+		};
+		7FD909211BB0192500E2DC77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD909221BB0192500E2DC77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,6 +417,23 @@
 			productReference = 7FD480A81BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7FD9091E1BB0192500E2DC77 /* 面试题_interviewExaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD909351BB0192500E2DC77 /* Build configuration list for PBXNativeTarget "面试题_interviewExaming" */;
+			buildPhases = (
+				7FD9091B1BB0192500E2DC77 /* Sources */,
+				7FD9091C1BB0192500E2DC77 /* Frameworks */,
+				7FD9091D1BB0192500E2DC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面试题_interviewExaming";
+			productName = "面试题_interviewExaming";
+			productReference = 7FD9091F1BB0192500E2DC77 /* 面试题_interviewExaming.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -392,6 +458,9 @@
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 7FD4808F1BAA292C0020DADC;
 					};
+					7FD9091E1BB0192500E2DC77 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 7F8C190D1BA7CE9600282C3F /* Build configuration list for PBXProject "MultiplyThinkingForSister" */;
@@ -411,6 +480,7 @@
 				7F8C192A1BA7CE9600282C3F /* MultiplyThinkingForSisterTests */,
 				7FD4808F1BAA292C0020DADC /* KVO和NSNotification的区别与联系 */,
 				7FD480A71BAA292C0020DADC /* KVO和NSNotification的区别与联系Tests */,
+				7FD9091E1BB0192500E2DC77 /* 面试题_interviewExaming */,
 			);
 		};
 /* End PBXProject section */
@@ -447,6 +517,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD9091D1BB0192500E2DC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD909311BB0192500E2DC77 /* LaunchScreen.storyboard in Resources */,
+				7FD9092E1BB0192500E2DC77 /* Assets.xcassets in Resources */,
+				7FD9092C1BB0192500E2DC77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +568,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD480AF1BAA292C0020DADC /* KVO_NSNotification______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD9091B1BB0192500E2DC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD909291BB0192500E2DC77 /* ViewController.m in Sources */,
+				7FD909261BB0192500E2DC77 /* AppDelegate.m in Sources */,
+				7FD909231BB0192500E2DC77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +627,22 @@
 				7FD480A21BAA292C0020DADC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7FD9092A1BB0192500E2DC77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD9092B1BB0192500E2DC77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD9092F1BB0192500E2DC77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD909301BB0192500E2DC77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -734,6 +840,32 @@
 			};
 			name = Release;
 		};
+		7FD909331BB0192500E2DC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "面试题_interviewExaming/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.----interviewExaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FD909341BB0192500E2DC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "面试题_interviewExaming/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.----interviewExaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,6 +913,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7FD909351BB0192500E2DC77 /* Build configuration list for PBXNativeTarget "面试题_interviewExaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD909331BB0192500E2DC77 /* Debug */,
+				7FD909341BB0192500E2DC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
